@@ -1,0 +1,57 @@
+/* * {
+    background-color: teal;
+}
+h2{
+    width: 260px;
+    height:28px;
+    border: 5px solid purple;
+    margin:-42px 0 50px 5px;
+    background-color:purple;
+    color:white;
+    text-align:center; 
+}
+h1{
+    text-align: center;
+}
+
+div,.card-text{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+pre{
+    justify-content: center;
+}
+
+.grid-container{
+    justify-content: center;
+    display: grid;
+    height: 525px;
+    align-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 10px;
+}
+
+
+.card-grid{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    width:280px;
+    height:200px;
+    border:5px dotted black;  
+    padding:20px;
+}
+
+.code{
+    width: 270px;
+    height:55px;
+    border: 5px solid yellow; 
+    background-color: yellow;
+    color: black;
+    border-radius:15px;
+    margin: -3px 0 0 0;
+
+} */
