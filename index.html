@@ -15,110 +15,101 @@
         <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
             to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
     </header>
-
-    <section>
-        <div class="card">
-            <div class="card-header">
-                <h2>Flexbox Row</h2>
-            </div>
-                <div class="card-body">
-                        <p>Use these three properties to create a Flexbox row layout</p>
-                        <pre><code>
+    <main>
+        <div class="card-container">
+            <section class="card">
+                <header><h2>Flexbox Row</h2></header>
+                <br>
+                <p>Use these three properties to create a Flexbox row layout</p>
+                <pre class="mini-card"><code>
                             .row{
                                 display: flex;
                                 flex-direction: row;
                                 flex-wrap: wrap;
                             }
-                        </code></pre>
-                </div>
-            </div>
+                        </code>
+                    </pre>
+            </section>
 
-            <div class="card">
-                <div class="card-header">
-                    <h2>Flexbox Column</h2>
-                </div>
-                <div class="card-body">
-                    <p>Use this to create Flexbox column layout</p>
-                    <pre><code>
+            <section class="card">
+                <header><h2>Flexbox Column</h2></header>
+                <br>
+                <p>Use this to create Flexbox column layout</p>
+                <pre class="mini-card"><code>
                         .column{
                             display:flex;
                             flex-direction:column;
                         }
                     </code></pre>
-                </div>
-            </div>
-    
+            </section>
 
-        <div class="card">
-            <div class="card-header">
-                <h2>CSS Grid Layout</h2>
-            </div>
-            <div class="card-body">
+            <section class="card">
+
+                <header><h2>CSS Grid Layout</h2></header>
+                <br>
                 <p>Build a 12-column layout using CSS Grid</p>
-                <pre><code>
-                    .grid{
-                        display:grid;
-                        width:100%;
-                        grid-template-columns:
-                    repeat(12, 1fr);
-                    }
-                </code></pre>
-            </div>
-        </div>
+                <pre class="mini-card"><code>
+                        .grid{
+                            display:grid;
+                            width:100%;
+                            grid-template-columns:
+                        repeat(12, 1fr);
+                        }
+                    </code></pre>
 
-        <div class="card">
-            <div class="card-header">
-                <h2>Linear Gradient</h2>
-            </div>
-            <div class="card-body">
+
+            </section>
+
+            <section class="card">
+                <header><h2>Linear Gradient</h2></header>
+                <br>
                 <p>This will create a background linear gradient from top to bottom.</p>
-                <pre><code>
-                    linear-gradient-background{
+                <pre class="mini-card"><code>
+                        linear-gradient-background{
                         background-image:linear-
                         gradient( 
                             rgba(232, 102, 236 0.3) 0%,
                             rgba(232, 102, 236, 0.6) 100%
-                        );
-                    }
-                </code></pre>
-            </div>
-        </div>
+                            );
+                        }
+                    </code></pre>
+            </section>
 
-
-        <div class="card">
-            <div class="card-header">
-                <h2>Box Transition Glow</h2>
+            <section class="card">
+                <header><h2>Box Transition Glow</h2></header>
+                <br>
                 <p>Use transition and box shadows to glow on hover</p>
-                <pre><code>
-                    .code-card .card-header{
-                        border-radius:8px;
-                        transition: all 0.5s ease-in-out;
-                    }
+                <pre class="mini-card"><code>
+                .code-card .card-header{
+                    border-radius:8px;
+                    transition: all 0.5s ease-in-out;
+                }
 
-                    .code-card:hover,
-                    .code-card:hover .card-header{
-                        box-shadow:inset 0px 0px 8px 
-                    rgba(232, 102, 236, 1), 0 015px
-                    rgba(232, 102, 236, 1):
-                    }
+                .code-card:hover,
+                .code-card:hover .card-header{
+                    box-shadow:inset 0px 0px 8px 
+                rgba(232, 102, 236, 1), 0 015px
+                rgba(232, 102, 236, 1):
+                }
                 </code></pre>
-            </div>
 
-        <div class="card">
-            <div class="card-header">
-                <h2>Overlay Card with Title</h2>
-            </div>
-            <div class="card-body">
-                <p>Use this position properties and negative margins to raise elements higer than tehir natural starting point.</p>
-                <pre><code>
+            </section>
+
+            <section class="card">
+                <header><h2>Overlay Card with Title</h2></header>
+                <br>
+                <p>Use this position properties and negative margins to raise elements higer than tehir natural
+                    starting
+                    point.</p>
+                <pre class="mini-card"><code>
                     .card-header{
                         position:relative;
                         margin-top:-20px;
                     }
                 </code></pre>
-            </div>
+            </section>
         </div>
-    </section>
+    </main>
 
     <footer>
 

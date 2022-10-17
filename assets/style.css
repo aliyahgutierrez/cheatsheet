@@ -1,0 +1,95 @@
+*{
+    background-color:rgb(58, 57, 57);
+}
+
+/* HEADER */
+
+header {
+    font-family: sans-serif;
+    font-size:15px;
+    color:hotpink;
+    text-align:center;
+}
+
+p{
+    font-family: sans-serif;
+    color:white;
+    text-align:center;
+}
+
+
+
+/* CARD-CONTAINER */
+
+section{
+    flex:4;
+    padding:50px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:flex-start;
+}
+
+.card-container {
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+  /* CARD HEADER STYLING */
+.card header h2 {
+    font-family: sans-serif;
+    color:hotpink;
+    text-align: center;
+    border:solid white;
+    border-width:2px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px;
+    background-color: rgb(58, 57, 57);
+    margin:-45px 20px;
+    width:75%;
+}
+
+    /* ACTUAL CARD STYLING */
+.card p header{
+    font-family: sans-serif;
+    color:hotpink;
+}
+
+.card{
+    width:300px;
+    height:300px;
+    border: 50px dashed white;
+    border-width: 5px;
+    padding:10px;
+    flex:0 0 330px;
+    box-shadow:10px 10px 5px hotpink;
+    margin: 25px;
+}
+
+/* MINI CODE CARD INSIDE CARD */
+.mini-card {
+    color:white;
+    width:320px;
+    height: 195px;
+    border:50px ;
+    margin: 0px 0px 0px 0px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(159,58,214,1) 100%);
+
+}
+
+
+.card code{
+    display:flex;
+    justify-content:center;   
+    margin-right: 140px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(159,58,214,1) 100%);
+}
+
+
+
