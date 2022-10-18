@@ -87,6 +87,11 @@ section{
 
 }
 
+.card header :hover{
+    box-shadow: 0px 0px 0px hotpink, 0px 0px 50px hotpink ;
+
+}
+
 
 .card code{
     width:100%;
